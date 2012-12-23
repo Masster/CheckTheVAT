@@ -108,8 +108,7 @@ public class CheckTheVAT extends Activity {
 	    // Handle item selection
 	    switch (item.getItemId()) {
 	        case R.id.menu_settings:
-	        	Toast toast = Toast.makeText(this,"Разработчик Андрей Антоненко.",1500);
-				toast.show();
+	        	Toast.makeText(this,"Разработал программист Андрей Антоненко. (с) 2012",2000).show();
 	            return true;
 	        default:
 	            return super.onOptionsItemSelected(item);

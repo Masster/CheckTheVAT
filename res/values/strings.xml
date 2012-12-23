@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">CheckTheVAT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">О программе</string>
+    <string name="title_activity_check_the_vat">Check The VAT</string>
+
+</resources>

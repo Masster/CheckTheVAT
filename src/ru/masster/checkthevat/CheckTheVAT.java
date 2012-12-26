@@ -46,7 +46,7 @@ public class CheckTheVAT extends Activity {
 
 	public void OnCheck(View v) {
 
-		edVAT.requestFocus();
+		//edVAT.requestFocus();
 
 		if (edVAT.getText().toString().length() > 0) {
 			vat = Double.parseDouble(edVAT.getText().toString());

@@ -13,14 +13,18 @@
         android:theme="@android:style/Theme.Black.NoTitleBar" >
         <activity
             android:name=".CheckTheVAT"
-            android:label="@string/title_activity_check_the_vat" >
+            android:label="@string/title_activity_check_the_vat"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="About"></activity>
+        <activity
+            android:name="About"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>
